@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .centered {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sp-btw {
+    justify-content: space-between;
+  }
+}
